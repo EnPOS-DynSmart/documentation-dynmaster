@@ -1,0 +1,68 @@
+:root {
+  --ifm-color-primary: #0071EB; /* DynMaster mavi */
+  --ifm-background-color: #f9f9f9;
+  --ifm-font-color-base: #1a1a1a;
+
+  --ifm-navbar-background-color: #0071EB;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #cce5ff;
+
+  --ifm-menu-color-background: #0071EB;
+  --ifm-menu-color: #ffffff;
+  --ifm-menu-color-active: #cce5ff;
+
+  --ifm-toc-border-color: #e0e0e0;
+}
+
+html,
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+}
+
+.navbar__link {
+  color: var(--ifm-navbar-link-color);
+}
+
+.navbar__link:hover {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+/* Sidebar (sol menü) */
+.menu {
+  background-color: var(--ifm-menu-color-background);
+}
+
+.menu__link {
+  color: var(--ifm-menu-color);
+}
+
+.menu__link:hover {
+  color: var(--ifm-menu-color-active);
+}
+
+.menu__link--active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* İçerik alanı */
+.main-wrapper {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+/* Footer */
+.footer {
+  background-color: #0071EB;
+  color: #cce5ff;
+}
+
+.footer a {
+  color: #cce5ff;
+}
+
